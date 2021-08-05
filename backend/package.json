@@ -1,0 +1,33 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/server.js",
+  "module": "./src/main.js",
+  "scripts": {
+    "start": "node -r esm ./src/server.js",
+    "server": "npm run start",
+    "production": "cross-env NODE_ENV=production PORT=3000 node -r esm ./src/server.js",
+    "init-db": "node -r esm ./src/music-data/init-db.js",
+    "test": "jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1",
+    "md5": "^2.3.0",
+    "mongoose": "^5.12.3",
+    "multer": "^1.4.2",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.1",
+    "@types/jest": "^26.0.23",
+    "babel-jest": "^26.6.3",
+    "cross-env": "^7.0.3",
+    "jest": "^26.6.3",
+    "mongodb-memory-server": "^6.9.6"
+  }
+}

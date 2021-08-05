@@ -1,0 +1,26 @@
+.modalContainer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.3);
+    z-index: 100;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+.box {
+    background-color:rgba(255, 255, 255, 0.8);
+    padding: 1px 30px;
+    box-shadow: 3px 3px 3px rgba(128, 128, 128, 0.5);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    z-index: 10;
+  }
+ 
