@@ -1,0 +1,22 @@
+.mycontainer {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  padding-top: 0px ;
+  /* align-items: center; */
+    padding-left: 0;
+    max-height: 100vh;
+    max-width: 100;
+    /* overflow: hidden; */
+  }
+  /* .player {
+    background: #f1f3f4;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+  } */
+
+
+ 
